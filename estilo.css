@@ -1,0 +1,239 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: "trebuchet MS", Helvetica, sans-serif;
+    background: #fff url(img/fundo.png) repeat-x;   
+}
+
+#cabeçalho{
+   
+    margin: 0 auto;
+    width: 750px;
+}
+
+#menu-principal{
+    height: 150px;
+    background: url(img/detalhe-topo.png) no-repeat right top;
+    padding-top: 25px;
+}
+
+#menu-principal{
+    height: 150px;
+    background: url(img/detalhe-topo.png) no-repeat right top;
+    padding-top: 25px;
+}
+
+.logo{
+    width: 150px;
+    height: 66px;
+    background: url(img/logo.png) no-repeat center;
+}
+ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+#menu-principal ul{
+    margin-top: 30px;
+    background: #b10333;
+    float: left;
+    height: 10px;
+}
+
+#menu-principal ul li{
+    float: left;
+} 
+
+#menu-principal ul a{
+    padding: 8px;
+    margin: 8px;
+    display: block;
+    text-decoration: none;
+    color: #fff;
+   
+}
+
+#menu-principal .primeiro a{
+    background: none;
+}
+
+#menu-principal ul a:hover{
+    color: #e24b4b;
+}
+
+body.home #navegacao a#home,
+body.home #navegacao a#brasil,
+body.home #navegacao a#internacional,
+body.home #navegacao a#economia,
+body.home #navegacao a#saude,
+body.home #navegacao a#ciencia,
+body.home #navegacao a#fotos
+{
+    color: #fff;
+    background: url(img/divisor.png) no-repeat left;
+    
+}
+
+#segundo-cabeçalho{
+    margin-top: 60px;
+
+}
+
+#lateral{
+    width: 180px;
+    background-color: #f3f3f3;
+    float: left;
+    margin: 5px;
+    background: url(img/fundo-caixa.png);
+}
+
+.caixa-lateral{
+    background-color: white;
+    margin: 5px;
+}
+
+.lateral-conteudo ul li a:hover{
+    background: url(img/marcador.png)left no-repeat;
+    padding-left: 20px;
+    color: darkgray;
+}
+.lateral-conteudo ul li{
+    margin-top: 11px;  
+}
+
+.lateral-conteudo li a{
+    color: black;
+    font-size: 13px;
+}
+h2{
+    font-size: 1em;
+    background-color: blue;
+    color: white;
+    padding: 5px;
+}
+
+ #primario{
+    width: 270px;
+    float: left;
+    margin: 5px;
+    background-color: #f3f3f3;
+    background: url(img/fundo-caixa.png);
+}
+
+.caixa-primario{
+    background-color: white;
+    margin: 5px;
+    padding: 5px;
+}
+
+.img-primaria li a img{
+    width: 80px;
+    float: left;
+    list-style: none;
+    margin-top: 5px;  
+}
+
+.img-primaria li {
+    height: 60px;
+    float: left;
+    background-color: white;
+}
+
+.img-primaria li h3{
+ font-size: 12px;
+ background-color: white;
+} 
+
+  
+#brasil-2-colunas #primario{
+    width: 540px;
+    background-color: aqua;
+    float: left;
+    margin: 5px;
+}
+
+#fotos-1-colunas #primario{
+    width: 720px;
+    background-color: aqua;
+    float: left;
+    margin: 5px;
+}
+
+
+#secundario{
+    width: 270px;
+    float: left;
+    margin: 5px;
+    background: url(img/fundo-caixa.png);
+    background-color: #f3f3f3;
+}
+
+
+
+.img-secundaria li a img{
+    width: 80px;
+    float: left;
+    list-style: none;
+    margin: 5px;
+    margin-top: 5px;
+} 
+
+.img-secundaria li {
+    height: 60px;
+    float: left;
+    background-color: white;
+}
+
+.img-secundaria li h3{
+    font-size: 12px;
+    background-color: white;
+
+} 
+
+   
+.caixa-secundaria{
+    background-color: white;
+    margin: 5px;
+    padding: 5px;
+    
+}
+
+#rodape{
+    background-color: #de003e;
+    clear: both;
+    height: 15px;
+    text-align: center;
+    padding: 5px;
+}
+
+img{
+    width: 100%;
+}
+
+h3{
+    font-size: 15px;
+    background-color: #de003e;
+    width: 240px;
+    margin: 10px 0px;
+}
+
+p{
+    font-size: 10px;
+    color: black;
+}
+
+span{
+    font-size: 9px;
+    color: black;
+}
+
+a{
+    text-decoration: none;
+}
+
+
+
